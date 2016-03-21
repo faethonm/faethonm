@@ -6,15 +6,7 @@
         <h5 class="header col s12 light">Avoid the hassle of setting up your project and get started hacking right away</h5>
       </div>
       <div class="row center">
-        <% if user_signed_in? %>
-          Hi <%= current_user.email %>
-          You are now logged in<br/>
-          <section>
-          <%= link_to "Log Out", destroy_user_session_path, method: :delete, class: "btn-large waves-effect waves-light pink" %>
-          </section>
-        <% else %>
-          <%= link_to "Log in", new_user_session_path, class: "btn-large waves-effect waves-light pink" %>
-        <% end %>
+      Hello
       </div>
       <br><br>
 
