@@ -18,6 +18,9 @@ gem 'annotate'
 gem 'administrate', '~> 0.1.2'
 gem 'better_errors'
 
+#blog
+gem 'jekyll', '2.5.3'
+
 group :development do
   gem 'web-console', '~> 2.0'
   gem 'spring'
