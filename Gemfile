@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '4.2.4'
+gem 'rails', '~> 5.0.0.beta3'
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.1.0'
@@ -11,13 +11,11 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem 'materialize-sass'
-gem 'devise'
 gem 'figaro'
-gem 'rails_12factor'
-gem 'annotate'
-gem 'administrate', '~> 0.1.2'
-gem 'better_errors'
 
+gem 'annotate'
+gem 'better_errors'
+gem 'devise', github: 'plataformatec/devise', branch: 'master'
 #blog
 gem 'jekyll', '2.5.3'
 
@@ -37,6 +35,7 @@ group :development, :test do
   gem 'launchy'
   gem 'rspec-rails'
   gem 'rubocop'
+  gem 'pry'
   gem 'rspec_junit_formatter'
 end
 
@@ -51,4 +50,5 @@ end
 
 group :production do
   gem 'pg'
+  gem 'rails_12factor'
 end
