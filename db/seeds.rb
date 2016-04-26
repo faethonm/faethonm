@@ -4,16 +4,16 @@ end
 
 User.create(email: 'test@example.com', password: 'password')
 Project.create(title: 'Foggy',
-               url: 'http://www.askfoggy.com',
+               url: 'https://hihiri.herokuapp.com/',
                description: 'We take of the little things for you so you can enjoy your big moments',
                image: 'foggy.png')
 
 Project.create(title: 'Hihiri',
                url: 'http://www.hihiri.com',
                description: 'Achieve great things together',
-image: 'hihiri.png')
+               image: 'hihiri.png')
 
 Project.create(title: 'Salem',
-               url: 'http://www.salem.com',
+               url: 'https://asksalem.herokuapp.com/m',
                description: 'Discover your social presence',
                image: 'salem.png')
