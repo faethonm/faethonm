@@ -9,11 +9,11 @@ Project.create(title: 'Foggy',
                image: 'foggy.png')
 
 Project.create(title: 'Hihiri',
-               url: 'http://www.hihiri.com',
+               url: 'https://hihiri.herokuapp.com/',
                description: 'Achieve great things together',
                image: 'hihiri.png')
 
 Project.create(title: 'Salem',
-               url: 'https://asksalem.herokuapp.com/m',
+               url: 'https://asksalem.herokuapp.com',
                description: 'Discover your social presence',
                image: 'salem.png')
