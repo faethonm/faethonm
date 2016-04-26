@@ -18,6 +18,7 @@ gem 'better_errors'
 gem 'devise', github: 'plataformatec/devise', branch: 'master'
 #blog
 gem 'jekyll', '2.5.3'
+gem 'font-awesome-sass'
 
 group :development do
   gem 'web-console', '~> 2.0'
